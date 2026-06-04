@@ -19,7 +19,7 @@ export const Route = createFileRoute("/contact")({
 function Contact() {
   const items = [
     { icon: Phone, label: "Phone", value: site.phone, href: site.phoneHref },
-    { icon: Mail, label: "Email", value: site.email, href: `mailto:${site.email}`, note: "(coming soon)" },
+    { icon: Mail, label: "Email", value: site.email, href: `mailto:${site.email}` },
     { icon: MapPin, label: "Address", value: site.address, href: site.mapsUrl, external: true },
     { icon: Clock, label: "Hours", value: site.hours },
   ];
@@ -57,7 +57,6 @@ function Contact() {
                   ) : (
                     <div className="text-lg font-medium">{it.value}</div>
                   )}
-                  {it.note && <div className="text-xs text-muted-foreground">{it.note}</div>}
                 </div>
               </li>
             ))}
