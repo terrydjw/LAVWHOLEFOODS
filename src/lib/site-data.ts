@@ -118,7 +118,7 @@ export const site = {
   tagline: "Your 24/7 neighbourhood supermarket in Archway",
   phone: "020 7263 7071",
   phoneHref: "tel:+442072637071",
-  email: "hello@lavwholefood.co.uk",
+  email: "info@lavwholefood.co.uk",
   address: "691-693 Holloway Rd, Archway, London N19 5SE",
   /** Opens Google Maps in a new tab — share / short links are fine here. */
   mapsUrl: "https://maps.app.goo.gl/9J8WMrtp7hz3io1M9",
