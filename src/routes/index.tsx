@@ -35,9 +35,7 @@ function Home() {
               Fresh whole foods, <span className="text-primary">any time</span> of day.
             </h1>
             <p className="mt-5 max-w-xl text-lg text-muted-foreground">
-              {site.name} is your local 24/7 supermarket in Archway, London — packed with
-              seasonal produce, Mediterranean, Turkish and Eastern European favourites,
-              dairy, snacks, wines and everyday essentials.
+              {site.name} is a 24/7 supermarket in Archway, London offering fresh produce, Mediterranean, Ethnic products and Eastern European foods, vegan, gluten-free, dairy, snacks, groceries, wines and spirits.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link

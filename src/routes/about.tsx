@@ -7,7 +7,7 @@ export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
       { title: `About — ${site.name}` },
-      { name: "description", content: `${site.name} is a 24/7 supermarket in Archway, London offering fresh produce, Mediterranean, Turkish and Eastern European foods, dairy, snacks, groceries, wines and spirits.` },
+      { name: "description", content: `${site.name} is a 24/7 supermarket in Archway, London offering fresh produce, Mediterranean, Ethnic products and Eastern European foods, vegan, gluten-free, dairy, snacks, groceries, wines and spirits.` },
       { property: "og:title", content: `About — ${site.name}` },
       { property: "og:description", content: `Quality products, friendly service, great value — every day of the year.` },
       { property: "og:url", content: "/about" },
@@ -39,9 +39,7 @@ function About() {
         <div className="grid gap-10 md:grid-cols-2">
           <div className="space-y-4 text-foreground/85">
             <p>
-              {site.name} is your local 24/7 supermarket in Archway, London, offering a
-              wide selection of fresh fruit and vegetables, Mediterranean, Turkish and
-              Eastern European foods, dairy products, snacks, groceries, wines and spirits.
+              {site.name} is a 24/7 supermarket in Archway, London offering fresh produce, Mediterranean, Ethnic products and Eastern European foods, vegan, gluten-free, dairy, snacks, groceries, wines and spirits.
             </p>
             <p>
               We are committed to providing quality products, friendly service, and great
